@@ -1,4 +1,6 @@
-const fs = require('fs');
+const chalk = require('chalk');
+
 const getNotes = require('./notes');
 
-console.log(getNotes())
+console.log(chalk.red.bgYellow(getNotes()));
+console.log(chalk.black.bgGreen.bold('Hello'));
