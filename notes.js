@@ -62,7 +62,7 @@ const readNote = (title) => {
   if (noteToRead) {
     console.log(chalk.green(noteToRead.title), noteToRead.body);
   } else {
-    console.log(chalk.red("No note found by that name"));
+    console.log(chalk.red("No note found by that name."));
   }
 };
 
