@@ -14,5 +14,13 @@
 	{
 		"title": "Shopping List 6",
 		"body": "beer, wine"
+	},
+	{
+		"title": "test note",
+		"body": "this is a test note body"
+	},
+	{
+		"title": "inspection",
+		"body": "inspection body"
 	}
 ]
